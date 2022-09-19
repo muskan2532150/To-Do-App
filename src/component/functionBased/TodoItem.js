@@ -12,9 +12,7 @@ export default function TodoItem(props) {
   const [editing, setEditing] = useState(false);
 
   const handleEditing = () => {
-    setEditing({
-      editing: true
-    });
+    setEditing(true);
   }
 
 
@@ -30,9 +28,7 @@ export default function TodoItem(props) {
 
   const handleUpdateDone = (event) => {
     if (event.key === "Enter") {
-      setEditing({
-        editing: false
-      });
+      setEditing(false);
     }
   }
 

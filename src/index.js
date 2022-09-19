@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from "react-dom"
-import TodoContainer from './component/TodoContainer';
+import TodoContainer from './component/functionBased/TodoContainer';
 import "./scss/main.css";
 
 
