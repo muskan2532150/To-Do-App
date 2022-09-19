@@ -5,7 +5,11 @@ export default function TodoList(props) {
   return (
     <ul>
       {props.todos.map(todo => (
-        <TodoItem key={todo.id} todo={todo} handleChangeProps={props.handleChangeProps} deleteTodoProps={props.deleteTodoProps} />
+        <TodoItem key={todo.id} todo={todo} 
+        handleChangeProps={props.handleChangeProps} 
+        deleteTodoProps={props.deleteTodoProps} 
+        setUpdateProps={props.setUpdateProps}
+        />
       ))}
     </ul>
   )
