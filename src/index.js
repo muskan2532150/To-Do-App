@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from "react-dom"
 import TodoContainer from './component/TodoContainer';
-
+import "./scss/main.css";
 
 
     ReactDOM.render(

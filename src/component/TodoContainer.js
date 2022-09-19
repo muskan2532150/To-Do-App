@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import TodosList from "./TodoList";
 import Header from "./Header";
 import InputTodo from "./InputTodo";
+import { v4 as uuidv4 } from 'uuid';
 
 export default class TodoContainer extends Component {
   state = {
@@ -65,10 +66,14 @@ export default class TodoContainer extends Component {
 
   render() {
     return (
-      <div>
+      <div className='container'>
+        <div className="inner">
         <Header />
         <InputTodo addTodoItemProps={this.addTodoItem} />
-        <TodosList todos={this.state.todos} handleChangeProps={this.handleChange} deleteTodoProps={this.deleteTodo} />
+        <TodosList todos={this.state.todos} 
+        handleChangeProps={this.handleChange} 
+        deleteTodoProps={this.deleteTodo} />
+        </div>
       </div>
     )
   }
