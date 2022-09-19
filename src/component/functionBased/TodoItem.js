@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import styles from "./TodoItem.module.css";
 
 export default function TodoItem(props) {
@@ -8,14 +8,18 @@ export default function TodoItem(props) {
     opacity: 0.4,
     textDecoration: "line-through",
   }
+// For componentDidUnmount
+  useEffect(() => {
+    return () => {
+      console.log("Cleaning up...")
+    }
+  }, [])
 
   const [editing, setEditing] = useState(false);
 
   const handleEditing = () => {
     setEditing(true);
   }
-
-
   
   let viewMode = {}
   let editMode = {}

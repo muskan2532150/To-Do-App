@@ -14,6 +14,15 @@ import { v4 as uuidv4 } from 'uuid';
 export default function TodoContainer() {
 
   //  same as componentDidMount as dependency on setTodos (change inside the effect for denpendency)
+  // useEffect(() => {
+  //   const temp = localStorage.getItem("todos")
+  //   const loadedTodos = JSON.parse(temp)
+  
+  //   if (loadedTodos) {
+  //     setTodos(loadedTodos)
+  //   }
+  // }, [])
+  // we can add setTodos inside array for depencency for safer side
 
  const firstIntailse = () => {
     // getting stored items
@@ -32,7 +41,7 @@ export default function TodoContainer() {
   }, [todos])
 
   const handleChange = (id) => {
-    setTodos(prevState => prevState.todos.map(todo => {
+    setTodos(todos.map(todo => {
       if (todo.id === id) {
         return {
           ...todo,
