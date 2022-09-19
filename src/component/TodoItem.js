@@ -17,6 +17,8 @@ export default function TodoItem(props) {
     });
   }
 
+
+  
   let viewMode = {}
   let editMode = {}
 

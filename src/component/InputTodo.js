@@ -14,7 +14,7 @@ export default class InputTodo extends Component {
     handleSubmit = (e)=>{
           e.preventDefault();
           if (this.state.title.trim()) {
-            this.props.addTodoProps(this.state.title)
+            this.props.addTodoItemProps(this.state.title);
             this.setState({
               title: "",
             })

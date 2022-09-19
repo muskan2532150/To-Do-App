@@ -70,4 +70,10 @@ body {
   height: 45px;
   outline: none;
   border: none;
+}
+
+@media screen and (max-width: 520px) {
+  h1 {
+    font-size: 8rem;
+  }
 }/*# sourceMappingURL=main.css.map */
