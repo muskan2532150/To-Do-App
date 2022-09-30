@@ -1,5 +1,5 @@
-import { useState } from 'react'
-
+import { useState } from 'react';
+import {FaRegArrowAltCircleRight} from "react-icons/fa";
 export default function InputTodo(props) {
   const [title, setTitle] = useState("");
 
@@ -21,7 +21,7 @@ const handleSubmit = (e)=>{
     <form onSubmit={handleSubmit} className='form-container' > 
     <input type="text" placeholder='Add Todo...' value={title} 
     onChange={onChange} className='input-text'/>
-    <button className='input-submit'>Submit</button>
+    <button className='input-submit'><FaRegArrowAltCircleRight/></button>
 </form>
   )
 }
