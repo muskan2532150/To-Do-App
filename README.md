@@ -1,5 +1,5 @@
 # To-Do-List
-Website using React to make a App where you can manage your daily task.
+This repo holds all the code for a React todos application.
 
 ## Live Demo
 [live website]()
@@ -42,7 +42,7 @@ You may also see any lint errors in the console.
 👤 **Muskan Gupta**
 
 - GitHub: [muskan2532150](https://github.com/muskan2532150)
-- Twitter: [@muskan2532150](https://twitter.com/muskan2532150)
+- Twitter: [Twitter](https://twitter.com/muskan2532150)
 
 ![Your Repository's Stats](https://contrib.rocks/image?repo=muskan2532150/To-Do-List)
 
@@ -59,6 +59,8 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Microverse
+- [Ibaslogic Github](https://github.com/Ibaslogic/react-todo-project)
+- [Ibaslogic Website](https://github.com/Ibaslogic/react-todo-project)
 
 ## 📝 License
 
