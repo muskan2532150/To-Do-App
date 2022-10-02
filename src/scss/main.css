@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 body {
@@ -10,6 +11,20 @@ body {
   color: #444;
   background: #fff;
   height: 100vh;
+}
+
+.activeLink {
+  text-decoration: underline;
+  color: #283593;
+}
+
+.navbar {
+  gap: 2%;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 4%;
+  font-size: 1.5vw;
 }
 
 .container {
