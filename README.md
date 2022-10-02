@@ -1,18 +1,16 @@
 # To-Do-List
 This repo holds all the code for a React todos application.
 
+In this app, you can add, delete, submit and edit items. 
+- To edit items, simply double click on it.  Once you are done, press the enter key to resubmit.
+-  This app will persist your data in the browser local storage. So whether you reload, close your app or reopened it, you still have access to your to-dos items.  
 ## Live Demo
 [live website]()
 
 ## Built With
 
 ###### Languages 
-- HTML
-- CSS
-- JAVASCRIPT
 - NPM
-- Node
-- Webpack
 - React
 
 ## Getting Started
@@ -43,8 +41,6 @@ You may also see any lint errors in the console.
 
 - GitHub: [muskan2532150](https://github.com/muskan2532150)
 - Twitter: [Twitter](https://twitter.com/muskan2532150)
-
-![Your Repository's Stats](https://contrib.rocks/image?repo=muskan2532150/To-Do-List)
 
 ## 🤝 Contributing
 
