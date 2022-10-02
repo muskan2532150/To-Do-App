@@ -137,7 +137,8 @@ nav button {
   flex-direction: column;
   flex: 7 1;
   margin-left: 12rem;
-  margin-top: 10rem;
+  margin-top: 2rem;
+  padding-bottom: 0;
 }
 .about h1 {
   margin-bottom: 15px;
