@@ -18,7 +18,7 @@ export const Navbar = () => {
   return (
     <nav>
       <button onClick={handleToggle} type='button'>{navOpen ?
-        <MdClose style={{ color: "rgb(34 31 31 / 36%)", width: "40px", height: "40px" }} />
+        <MdClose style={{ color: "#fff", width: "40px", height: "40px" }} />
         : <FiMenu style={{ color: "#7b7b7b", width: "40px", height: "40px" }} />
       }
       </button>

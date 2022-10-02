@@ -130,4 +130,23 @@ nav button {
   h1 {
     font-size: 8rem;
   }
+}
+.about {
+  padding: 8rem;
+  display: flex;
+  flex-direction: column;
+  flex: 7 1;
+  margin-left: 12rem;
+  margin-top: 10rem;
+}
+.about h1 {
+  margin-bottom: 15px;
+  line-height: 30px;
+  font-size: 2.9vw;
+}
+.about p {
+  line-height: 2.3vw;
+  padding-right: 8rem;
+  font-size: 1.7vw;
+  padding-top: 1.5rem;
 }/*# sourceMappingURL=main.css.map */
