@@ -126,11 +126,6 @@ nav button {
   border: none;
 }
 
-@media screen and (max-width: 520px) {
-  h1 {
-    font-size: 8rem;
-  }
-}
 .about {
   padding: 8rem;
   display: flex;
@@ -150,4 +145,32 @@ nav button {
   padding-right: 8rem;
   font-size: 1.7vw;
   padding-top: 1.5rem;
+}
+
+@media screen and (max-width: 520px) {
+  h1 {
+    font-size: 8rem;
+  }
+  nav button {
+    left: 35px;
+  }
+  nav button svg {
+    height: 28px !important;
+  }
+  .navbar {
+    max-width: 130px;
+  }
+  .about {
+    padding: 5rem;
+    margin: 0;
+    margin-top: 2rem;
+    padding-top: 6rem;
+    width: 100%;
+  }
+  .about h1 {
+    margin-bottom: 0;
+  }
+  .about p {
+    padding-right: 0;
+  }
 }/*# sourceMappingURL=main.css.map */
